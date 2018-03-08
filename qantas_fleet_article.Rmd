@@ -1,0 +1,53 @@
+---
+title: "Qantas' maturing fleet"
+author: "Steve Gabriel"
+date: "04/03/2018"
+output: html_document
+---
+
+### Fleet age and safety
+Qantas’ recent profit announcement (2018 H1 underlying profit before tax of A$976m) has been accompanied by S & P Global comments that this is partly due to it's failure to update its ageing fleet. The company has previously targeted the 8 - 10 years range everage for its aircraft. Combining Qantas Airways (QAN) two main passenger airlines, Qantas and Jetstar (Aus), the average aircraft age is currently 9.5 years.
+
+Before delving deeper into the Qantas fleet, one myth regarding fleets that should be dealt with is the one that newer aircraft are safer. This is certainly not true - the research (Hansman, 2014) shows that there is no correlation between aircraft age and accident rate up to 18 years. For fatal accidents, there is no correlation up to an aircraft age of 27 years.
+
+### Fleet age and economics
+The main consideration for airlines is that older aircraft are more expensive to operate. This is both in terms of maintenance costs and fuel usage costs. Older models use heavier materials, and also require higher frequency and more detailed manintenance.
+
+How does Qantas fleet compare to other major airlines in the region? The top twenty airlines for international flights (arrivals and departures) are compared:
+
+```{r, include=FALSE}
+library(ggplot2)
+library(ggthemes)
+library(tibble)
+library(dplyr)
+
+pax <- read.table("inter_6_3.csv", sep=",", quote = "", header = TRUE)
+pax$pax_both <- pax$pax_in + pax$pax_out
+
+pax_tib <- as_tibble(pax)
+pax_tib
+
+# aggregate by airline
+pax_tg <- group_by(pax_tib, airline)
+paxsumm <- summarize(pax_tg, total_1711 = sum(pax_both))
+pax_desc <- arrange(paxsumm, desc(total_1711))
+
+pax_20 <- pax_desc[1:20,]
+pax_20$age <- c(10.5,7.7,7.9,5.7,7.3,7.3,8.0,5.2,7.1,6.3,9.2,5.4,6.2,5.0,5.5,5.9,6.5,10.2,14.5,6.1)
+pax_20$org <- c('red','darkorange1','royalblue2','royalblue2','royalblue2','royalblue2','royalblue2','royalblue2','royalblue2','royalblue2','royalblue2','royalblue2','royalblue2','royalblue2','royalblue2','royalblue2','royalblue2','royalblue2','royalblue2','royalblue2')
+
+pax_20$airline <- factor(pax_20$airline, levels = pax_20$airline[order(pax_20$age)])
+
+reg_20 <- ggplot(pax_20, aes(airline, age))
+```
+
+```{r, echo=FALSE}
+reg_20 + geom_bar(stat = "identity", position = "identity", fill = pax_20$org) + coord_flip() + ggtitle("   Average aircraft age by airline: airfleets.net as at 5 March 2018") + geom_text(aes(label=round(age, digits = 1)), size = 3.8, hjust = -0.5, vjust =0.4, angle = 0, family = "Arial", fontface = "bold", color = "gray66") + scale_y_continuous(limits=c(0,17)) + ylab("Years")  + xlab("") + theme(axis.text = element_text(size=12, face ="bold", color = "grey")) + geom_text(aes(label = airline), size = 3.8, hjust = 1.1, vjust =0.4, angle = 0, family = "Arial", fontface = "bold", color = "black") + theme_solarized(light = FALSE) + scale_color_manual(labels = c("QAN", "other"), values = c("red", "blue"))+ theme(axis.text.y = element_blank()) + geom_label(aes(x = 5.5, y = 13, label = "Top 20 airlines by international \n passengers to/from Australia, Nov 2017 - \n (Bureau of Infrastructure, Transport, \n & Regional Economics (BITRE)"), color = "gainsboro", fill = "black",label.r = unit(0.05, "lines"), label.size = 0.1, size = 3)
+```
+
+
+While the Qantas company owned Qantas and Jetstar fleets are older than most other major airlines flying in and out of Australia, this is also due to faster recent fleet expansion of many rivals. Middle class populalations are growing fast within Asia, and demand for travel is booming.
+
+A quick comparison of the major US airlines indicates that in a wider context, Qantas has an unremarkable fleet, in terms of its vintage. The four major US airlines have fleets that are at least 10 yrs old - Delta Airlines is the oldest at 16.8 years. United Airlines has an average of 14.5 years, Southwest is at 10.6 years, and American Airlines’ fleet is 10.3 years old, on average.
+
+In terms of economics, Qantas is likely to favour replacing more of it’s older aircraft in the near future. Eight new 787-9 Dreamliners to be delivered in 2018, will replace five older 747’s, nudging the average age down. However the airline appears to be comfortable with delaying significant renewal, at least for the next two years.
