@@ -1,0 +1,97 @@
+"sched_operator","service_to_from","inb_flights","inb_pax","inb_seats_avail","out_flights","out_pax","out_seats_avail"
+"Air Caledonie International","New Caledonia",446,59079,79592,445,60803,79604
+"Air Canada","Canada",715,161289,204029,715,160224,204353
+"Air China","China",1015,191427,266049,1015,202653,266049
+"Air India","India",365,80612,93440,364,71837,93184
+"Air Mauritius","Mauritius",118,26774,32925,119,27155,33225
+"Air New Zealand","Cook Islands",53,9000,13086,53,10634,13101
+"Air New Zealand","New Zealand",7515,1274320,1597740,7492,1260924,1596670
+"Air Niugini","Papua New Guinea",1264,90250,165316,1259,93441,164557
+"Air Vanuatu","Vanuatu",400,45889,68000,400,45107,68000
+"AirAsia X","Malaysia",2746,848782,1035242,2746,791631,1035242
+"AirAsiaX","New Zealand",365,103348,137605,365,115681,137605
+"All Nippon Airways","Japan",365,65788,80025,365,66575,80025
+"American Airlines","USA",349,90934,108190,350,88150,108500
+"Asiana Airlines","Korea",347,79184,105141,347,82005,105141
+"Batik Air Indonesia (a)","Indonesia",19,1243,2964,18,2550,2808
+"Beijing Capital Airlines (b)","China",118,20527,26196,118,20144,26196
+"British Airways","UK",362,91596,107514,361,88723,107217
+"Cathay Pacific Airways","Hong Kong (SAR)",3923,902650,1037550,3917,904242,1035837
+"Cebu Pacific Air","Philippines",243,82426,105948,243,73735,105948
+"China Airlines","New Zealand",519,118255,159312,519,125660,159312
+"China Airlines","Taiwan",652,156158,195775,652,161209,195775
+"China Eastern Airlines","China",1593,325047,390138,1593,321902,390138
+"China Southern Airlines","China",2424,568034,673705,2424,560075,673625
+"Delta Air Lines","USA",350,87542,101850,350,90129,101850
+"Emirates","New Zealand",1459,489460,702567,1459,497518,702433
+"Emirates","United Arab Emirates",4165,1362764,1786490,4155,1288806,1785546
+"Etihad Airways","United Arab Emirates",2127,622306,787831,2127,621772,787831
+"Eva Air","Taiwan",215,41791,54180,215,42033,54180
+"Fiji Airways","Fiji",1502,232424,285066,1505,233493,285498
+"Garuda Indonesia","Indonesia",1625,321813,377625,1625,315197,377589
+"Hainan Airlines (d)","China",300,58576,75000,302,63148,75500
+"Hawaiian Airlines","USA",532,115746,151044,532,116831,151044
+"Hong Kong Airlines","Hong Kong (SAR)",180,37069,52551,182,35240,53135
+"Indonesia AirAsia","Indonesia",1356,205126,244080,1356,199448,244080
+"Indonesia AirAsia Extra (e)","Indonesia",105,32577,39585,105,31058,39585
+"Japan Airlines","Japan",365,72883,84455,365,71866,84454
+"Jetstar","China",26,6432,8710,26,6603,8710
+"Jetstar","Fiji",326,42721,58680,326,39815,58680
+"Jetstar","Guam",1,319,335,0,0,0
+"Jetstar","Indonesia",2706,582994,653085,2705,578874,653370
+"Jetstar","Japan",1026,277627,343710,1028,268066,344380
+"Jetstar","New Zealand",3005,439068,542915,3015,436233,544715
+"Jetstar","Singapore",618,130211,150145,624,127696,151535
+"Jetstar","Thailand",583,159573,195305,585,159117,195975
+"Jetstar","USA",485,143000,162475,485,136361,162475
+"Jetstar","Vietnam",49,12960,16415,49,14493,16415
+"Jetstar Asia","Singapore",893,124133,160740,891,121887,160380
+"Jin Air (f)","Korea",16,5764,6256,15,5424,5865
+"Korean Air","Korea",606,155312,182077,606,151865,182077
+"LATAM Airlines","Chile",353,80875,106710,354,82437,107019
+"Malaysia Airlines","Malaysia",2329,482800,609643,2321,450247,608313
+"Malindo Air","Malaysia",699,79841,113724,698,74866,113544
+"Nauru Airlines","Nauru",185,9427,20864,195,9269,20608
+"Philippine Airlines","New Zealand",209,19323,33369,209,23254,33369
+"Philippine Airlines","Philippines",935,155101,231382,935,146411,231372
+"Qantas Airways","Brazil",1,192,364,0,0,0
+"Qantas Airways","Canada",45,13130,16370,45,13232,16368
+"Qantas Airways","Chile",201,62409,72148,203,62513,72959
+"Qantas Airways","China",536,113346,140526,537,107702,139998
+"Qantas Airways","Hong Kong (SAR)",1462,364905,464553,1465,355306,465773
+"Qantas Airways","Indonesia",396,70226,87577,396,67907,86573
+"Qantas Airways","Japan",918,245419,295264,919,239210,295630
+"Qantas Airways","New Caledonia",211,29896,36643,210,29746,36399
+"Qantas Airways","New Zealand",5996,790261,993886,5994,800908,998270
+"Qantas Airways","Papua New Guinea",448,33418,56242,449,26335,56247
+"Qantas Airways","Philippines",273,66916,76404,273,63258,76431
+"Qantas Airways","Singapore",2065,447481,525807,2070,421199,526225
+"Qantas Airways","South Africa",315,99050,113267,315,90663,113234
+"Qantas Airways","Thailand",361,90091,105522,393,92333,106092
+"Qantas Airways","UK",709,282656,343117,710,280766,343593
+"Qantas Airways","United Arab Emirates",6,1849,2903,7,1925,3388
+"Qantas Airways","USA",2268,682093,801361,2241,675764,852820
+"Qatar Airways","Qatar",1380,400608,518313,1378,428346,517513
+"Royal Brunei Airlines","Brunei",363,67096,92202,362,64545,91948
+"Scoot","Singapore",1132,331408,414388,1132,311821,414382
+"Sichuan Airlines","China",259,50547,69582,259,52550,69640
+"Silk Air","Singapore",393,44326,63666,394,48985,63828
+"Singapore Airlines","New Zealand",259,26522,43092,294,25609,43092
+"Singapore Airlines","Singapore",6686,1557674,1895867,6644,1572063,1895732
+"Solomon Airlines","Solomon Islands",225,17831,30600,231,18074,31416
+"South African Airways","South Africa",362,75048,97604,362,74956,97734
+"Thai Airways International","Thailand",2033,512973,635582,2033,498334,635665
+"Tigerair Australia (g)","Indonesia",533,76295,95940,523,87420,94140
+"United Airlines","USA",1082,219329,272450,1067,220688,268686
+"Vietnam Airlines","Vietnam",741,169184,215545,741,160777,215514
+"Virgin Australia","Fiji",1069,158057,195140,1070,158863,195316
+"Virgin Australia","Indonesia",1034,144810,181984,1026,145027,180576
+"Virgin Australia","New Zealand",4317,564091,759318,4319,572390,759664
+"Virgin Australia","Papua New Guinea",306,20672,53826,307,22936,54002
+"Virgin Australia","Solomon Islands",103,6428,18110,103,7580,18110
+"Virgin Australia","Tonga",104,13036,18298,104,12057,18298
+"Virgin Australia","United Arab Emirates",59,17792,20001,59,15735,20001
+"Virgin Australia","USA",778,210640,264006,777,214550,263645
+"Virgin Australia","Vanuatu",179,24875,31498,178,25424,31322
+"Virgin Samoa","Western Samoa",172,21594,30266,173,22221,30442
+"Xiamen Airlines","China",427,78390,100777,427,67953,100777
